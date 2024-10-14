@@ -1,5 +1,5 @@
 //Require Statement
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 //Hash Password Function
 const hashPassword = async (password) => {
